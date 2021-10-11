@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "integer"
+    },
+    "payment": {
+      "type": "integer"
+    },
+    "gross": {
+      "type": "integer"
+    },
+    "netto": {
+      "type": "integer"
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "livingspace": {
+      "type": "integer"
+    },
+    "lotsize": {
+      "type": "integer"
+    },
+    "basementsize": {
+      "type": "integer"
+    },
+    "adress1": {
+      "type": "string"
+    },
+    "adress2": {
+      "type": "string"
+    },
+    "postalcode": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "energylabel": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Villa",
+        "Ejerlejlighed",
+        "Landejendom",
+        "Byhus"
+      ]
+    },
+    "agent": {
+      "model": "agent"
+    }
+  }
+}
