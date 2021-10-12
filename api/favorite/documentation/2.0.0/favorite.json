@@ -596,6 +596,18 @@
               "agent": {
                 "type": "string"
               },
+              "rooms": {
+                "type": "string"
+              },
+              "built": {
+                "type": "integer"
+              },
+              "remodel": {
+                "type": "integer"
+              },
+              "floorplan": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },

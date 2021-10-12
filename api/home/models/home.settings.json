@@ -81,6 +81,25 @@
     },
     "agent": {
       "model": "agent"
+    },
+    "rooms": {
+      "type": "string"
+    },
+    "built": {
+      "type": "integer"
+    },
+    "remodel": {
+      "type": "integer"
+    },
+    "floorplan": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
