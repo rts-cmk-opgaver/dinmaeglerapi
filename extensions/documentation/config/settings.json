@@ -4,12 +4,7 @@
       "version": "2.0.0",
       "title": "Din Mægler Api dokumentation",
       "description": "",
-      "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
-      "contact": {
-        "name": "RTS/WU",
-        "email": "clu@rts.dk",
-        "url": "www.rts.dk"
-      },
+   
       "license": {
         "name": "Apache 2.0",
         "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
@@ -23,14 +18,7 @@
       ]
     },
     "servers": [
-      {
-        "url": "http://localhost:1337",
-        "description": "Development server"
-      },
-      {
-        "url": "YOUR_STAGING_SERVER",
-        "description": "Staging server"
-      },
+
       {
         "url": "https://dinmaegler.herokuapp.com/",
         "description": "Production server"
@@ -43,6 +31,6 @@
       }
     ],
     "paths": {},
-    "tags": ["agents", "favorites"],
+    "tags": [],
     "components": {}
   }
