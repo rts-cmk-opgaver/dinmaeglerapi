@@ -8,6 +8,9 @@
   "options": {
     "increments": true,
     "timestamps": true,
+    "privateAttributes": [
+      "users_permissions_user"
+    ],
     "draftAndPublish": true
   },
   "pluginOptions": {},
@@ -16,9 +19,9 @@
       "model": "home"
     },
     "users_permissions_user": {
+      "via": "favorites",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "favorites"
+      "model": "user"
     }
   }
 }
