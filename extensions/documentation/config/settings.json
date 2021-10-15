@@ -18,7 +18,9 @@
     "x-strapi-config": {
       "path": "/documentation",
       "showGeneratedFiles": true,
-      "pluginsForWhichToGenerateDoc": []
+      "pluginsForWhichToGenerateDoc": [
+        "users-permissions"
+      ]
     },
     "servers": [
       {
@@ -41,6 +43,6 @@
       }
     ],
     "paths": {},
-    "tags": [],
+    "tags": ["agents", "favorites"],
     "components": {}
   }

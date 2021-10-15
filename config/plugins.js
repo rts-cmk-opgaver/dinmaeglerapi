@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
       upload_presest: env("CLOUDINARY_UPLOADPRESET"),
     },
     breakpoints: {
-      thumbnail:       500,
+      thumbnail: 500,
     },
   },
   // ...
