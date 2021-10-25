@@ -64,6 +64,7 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
+        "files",
         "images"
       ],
       "plugin": "upload",
@@ -95,6 +96,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
+        "files",
         "images"
       ],
       "plugin": "upload",
