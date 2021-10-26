@@ -102,6 +102,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "lat": {
+      "type": "float"
+    },
+    "long": {
+      "type": "float"
     }
   }
 }
