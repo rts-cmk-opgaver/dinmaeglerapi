@@ -108,6 +108,11 @@
     },
     "long": {
       "type": "float"
+    },
+    "users": {
+      "via": "homes",
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }

@@ -59,9 +59,11 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "favorites": {
-      "via": "users_permissions_user",
-      "collection": "favorite"
+    "homes": {
+      "columnName": "favorites",
+      "collection": "home",
+      "via": "users",
+      "dominant": true
     }
   }
 }

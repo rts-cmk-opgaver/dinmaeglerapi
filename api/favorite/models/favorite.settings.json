@@ -15,13 +15,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "home": {
-      "model": "home"
-    },
-    "users_permissions_user": {
-      "via": "favorites",
-      "plugin": "users-permissions",
-      "model": "user"
+    "iuyt": {
+      "type": "string"
     }
   }
 }
